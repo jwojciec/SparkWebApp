@@ -1,0 +1,67 @@
+.form-style {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    background: #FFFFFF;
+    padding: 30px 30px 20px 30px;
+    font: normal 13px Arial, sans-serif;
+    border: solid 1px #DDEEEE;
+    border-radius: 5px;
+
+}
+.form-style h2 {
+    font: normal 24px Arial, sans-serif;
+    padding: 20px 0px 20px 40px;
+    margin: -30px -30px 10px -30px;
+    color: #336B6B;
+    background-color: #DDEFEF;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom:1px solid #DDEFEF;
+    text-align: left;
+}
+.form-style label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.form-style label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #336B6B;
+	font-weight: bold;
+}
+.form-style input[type="text"], .form-style input[type="email"], .form-style textarea, .form-style select {
+    border: 1px solid #DDEEEE;
+    color: #336B6B;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font: normal 13px Arial, sans-serif;
+    line-height:15px;
+}
+.form-style textarea{
+    height:150px;
+    padding-top: 10px;
+}
+.form-style .button {
+    color: #336B6B;
+	background-color: #DDEFEF;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+}
+.form-style .button:hover {
+    color: #FFF;	
+    background-color:#336B6B;
+    
+}
+.faded {
+    color: #FFF;	
+    background-color:#DDEFEF;	
+}
