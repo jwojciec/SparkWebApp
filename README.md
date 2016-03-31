@@ -7,3 +7,7 @@ Simple WebApp with CRUD operations. Done using: Spark, Freemarker, Mongo, Morphi
 - Make sure that mongo.properties settings are correct.
 - Start WebApp with 'mvn compile exec:java'
 - In your browser open 'http://localhost:4567/'.
+
+##TODO:
+- Authentication
+- Unit Tests
