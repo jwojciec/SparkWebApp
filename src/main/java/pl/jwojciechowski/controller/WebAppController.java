@@ -31,6 +31,13 @@ public class WebAppController {
             return new ModelAndView(null, "form.ftl");
         }, new FreeMarkerEngine());
 
+        get("/edit/:id", (req, res) -> {
+            Map<String, Object> attributes = new HashMap<>();
+            pDAO = new ProductDAO();
+            attributes.put("product", pDAO.selectProduct(req.params("id")));
+            return new ModelAndView(attributes, "form.ftl");
+        }, new FreeMarkerEngine());
+
         get("/delete/:id", (req, res) -> {
             pDAO = new ProductDAO();
             pDAO.removeProduct(req.params(":id"));

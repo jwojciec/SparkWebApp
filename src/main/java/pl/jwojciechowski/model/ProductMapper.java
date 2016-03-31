@@ -13,7 +13,8 @@ import java.util.Locale;
  */
 public class ProductMapper {
     public static void req2Product(Product p, Request req) throws ParseException {
-        p.setId(req.queryParams("id"));
+        if(!req.queryParams("id").equals(""))
+            p.setId(req.queryParams("id"));
         p.setProduct_name(req.queryParams("product_name"));
         p.setProduct_price(Double.parseDouble(req.queryParams("product_price")));
         p.setCategory(req.queryParams("category"));
