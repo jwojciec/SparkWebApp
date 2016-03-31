@@ -23,12 +23,12 @@ public class Product {
     @Property("expiration_date")
     private Date expiration_date;
 
-    public ObjectId getId() {
-        return id;
+    public String getId() {
+        return id.toString();
     }
 
-    public void setId(ObjectId id) {
-        this.id = id;
+    public void setId(String id) {
+        this.id = new ObjectId(id);
     }
 
     public String getProduct_name() {

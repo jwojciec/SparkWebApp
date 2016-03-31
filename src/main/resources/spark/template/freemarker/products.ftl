@@ -6,22 +6,22 @@
     <link rel="stylesheet" type="text/css" href="/products.css">
   </head>
   <body>
-	<h2>Product list:</h2>
-		<table class="table-style">
+    <h2>Product list:</h2>
+        <table class="table-style">
         <thead>
             <tr>
                 <th>Product Id</th>
                 <th>Name</th>
                 <th>Price</th>
                 <th>Category</th>
-                <th>Exp date</th>				
+                <th>Exp date</th>
                 <th colspan=2></th>
             </tr>
         </thead>
         <tbody>
             <#list products as product>
                 <tr>
-					<td>${product["id"]}</td>
+                    <td>${product["id"]}</td>
                     <td>${product["product_name"]}</td>
                     <td>${product["product_price"]}</td>
                     <td>${product["category"]}</td>
