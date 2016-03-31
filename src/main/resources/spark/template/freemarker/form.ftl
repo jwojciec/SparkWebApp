@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="/form.css">
         <title>Product list</title>
     </head>

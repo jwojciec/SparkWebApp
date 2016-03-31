@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Product List</title>
     <link rel="stylesheet" type="text/css" href="/products.css">
+    <title>Product List</title>
   </head>
   <body>
     <h2>Product list:</h2>
